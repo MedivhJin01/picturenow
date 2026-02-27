@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+
+# IntelliJ / IDE
+.idea/
+*.iml
+*.iws
+
+# =========================
+# Backend (Maven / Java)
+# =========================
+**/target/
+**/*.log
+
+# =========================
+# Frontend (Node / React)
+# =========================
+**/node_modules/
+**/dist/
+**/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
